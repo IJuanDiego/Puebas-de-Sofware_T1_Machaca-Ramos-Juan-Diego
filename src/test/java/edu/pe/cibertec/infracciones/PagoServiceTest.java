@@ -34,7 +34,7 @@ public class PagoServiceTest {
     private PagoServiceImpl service;
 
     @Test
-    @DisplayName("Pregunta3: Aplicar descuento del 20% y cambiar estado")
+    @DisplayName("Pregunta 3: Aplicar descuento del 20% y cambiar estado")
     void procesarPago_aplicaDescuentoYMarcaPagada() {
 
         Multa multa = new Multa();
